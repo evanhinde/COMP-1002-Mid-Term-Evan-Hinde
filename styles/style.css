@@ -1,0 +1,79 @@
+@import url('./layout.css');
+
+/*HEADER*/
+body > header {
+    height: 200px;
+    background: url(../images/charlie-harris-U20fx1ZOAIg-unsplash.jpg);
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 1em;
+}
+
+body > header h1 {
+    font-size: 3em;
+    color: white;
+    text-shadow: 1px 1px black;
+}
+
+body > header h2 {
+    font-size: 2.5em;
+    color: orange;
+    text-shadow: 1px 1px black;
+}
+
+
+/*MAIN*/
+main {
+    height: 50%;
+    margin: 1em
+}
+
+p {
+    flex-wrap: wrap;
+    font-size: 15px;
+    margin: 1em;
+    line-height: 2em;
+}
+
+figure {
+    float: left;
+    height: 150px;
+    width: 250px;
+    font-size: 0.8em;
+}
+
+
+/*ASIDE*/
+
+
+aside {
+    width: 30%;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 0.3em;
+    padding: 3em;
+    border: 1px solid black;
+    border-radius: 5px;
+}
+
+aside img {
+    width: 95%;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+aside > p {
+    font-size: 3em;
+}
+
+aside > section {
+    color: white;
+    font-size: 2em;
+    height: 3.5em;
+    width: 95%;
+    background-color: black;
+    text-align: center;
+}
